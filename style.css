@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(219, 25, 57);
+    color: white;
+    overflow-x: hidden;
+}
+.heading_top{
+    text-align: center;
+    color: white;
+    padding: 2vh 0;
+    font-size: 5vh;
+    animation-name: drift;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+.time{
+    position: absolute;
+    top: 10vh;
+    left: 80vw;
+    /* font-size: 5vh; */
+}
+/* @keyframes drift{
+    0%{transform: translateX(-30vw);}
+    10%{transform: translateX(10vw);}
+    50%{transform: translateX(200vw);}
+    100%{transform: translateX(300vw);}
+} */
+.login_now{
+    width: 26vw;
+    height: 42vh;
+    border: 2px solid white;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 0.2em;
+    padding-left: 1vw;
+    transition: 0.3s all;
+}
+.login_now:hover{
+    box-shadow: 0px 0px 0px black;
+    border-radius: 0;
+}
+/* .create_account{
+    padding: 1vh 0;
+    padding: 4px;
+    padding-left: 1vw;
+} */
+.login_now h2{
+    text-align: center;
+}
+.input_headings{
+    /* margin-top: 2vh; */
+}
+.name_space input{
+    text-align: center;
+}
+.signup_inputs{
+    padding: 0 1vw;
+    height: 5vh;
+    border: 5px soild black;
+    border-radius: 0.3em;
+    width: 87%;
+    margin: 1vh 0;
+    text-align: center;
+}
+.login{
+    border: 0;
+    border-radius: 0.2em;
+    padding: 1.3vh;
+    color: white;
+    background-color: rgb(219, 25, 57);
+    margin: 1.5vh 0;
+    margin-right: 1vw;
+    font-weight: bolder;
+    transition: 0.3s all;
+    margin-bottom: 0;
+}
+.login:hover{
+    background-color: white;
+    color: rgb(255, 17, 0);
+    border: 1px solid rgb(219, 25, 57);
+    font-weight: bolder;
+    padding: 1.7vh;
+}
+.signup{
+    border: 0;
+    border-radius: 0.2em;
+    padding: 1.3vh;
+    color: white;
+    background-color: rgb(219, 25, 57);
+    margin-right: 1vw;
+    font-weight: bolder;
+    transition: 0.3s all;
+}
+.signup:hover{
+    background-color: white;
+    color: rgb(255, 17, 0);
+    border: 1px solid rgb(219, 25, 57);
+    font-weight: bolder;
+    padding: 2vh;
+}
+
+
+
+
+.pointer{
+    /* border-right-style: 5px solid rgb(255, 17, 0); */
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    width: 20vw;
+    height: 20vh;
+    margin-left: 23vw;
+}
+
+
+
+
+.example{
+    width: 40vw;
+    background-color: white;
+    color: black;
+    padding: 2vw;
+    border-radius: 0.2em;
+    height: 40vh;
+    position: fixed;
+    top: 45vh;
+    left: 43vw;
+    box-shadow: 3px 3px 5px black;
+}
+.question_buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+    width: 40%;
+    float: right;
+    margin-top: 2vh;
+}
+.question_btn{
+    border: 0;
+    border-radius: 0.2em;
+    padding: 1.3vh;
+    color: white;
+    background-color: rgb(219, 25, 57);
+    margin: 1.7vh 0;
+    margin-right: 1vw;
+    font-weight: bolder;
+    transition: 0.3s all;
+}
+
+
+
+.start_exam{
+    position: fixed;
+    top: 35vh;
+    left: 60vw;
+}
+.start_now{
+    padding: 1vh;
+    border-radius:  1px solid black;
+    border-radius: 0.2em;
+    border: 0;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(20, 108, 197);
+}
+
+
+
+#Question1, #Question2, #Question3, #Question4, #Question5{
+    position: fixed;
+    left: 27vw;
+    top: 22vh;
+    display: none;
+}
+
+#create_account_now{
+    display: none;
+}
